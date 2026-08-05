@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **迁移说明：Rust / Tauri 版本现在正式迁移到 `anYuJia/better-douyin` 作为主发布仓库。**
+>
+> 如果你来自旧仓库 [`anYuJia/better-douyin-R`](https://github.com/anYuJia/better-douyin-R) 或旧版本，请前往本仓库的 [Releases](https://github.com/anYuJia/better-douyin/releases/latest) 重新下载安装包。后续安装包、签名文件和自动更新 metadata 都会在这里发布。
+>
+> 另外，因为作者误操作，原仓库的 Star 数据全部丢失了。如果这个项目对你有帮助，希望大家在新仓库帮忙点一个 Star 支持作者：[https://github.com/anYuJia/better-douyin](https://github.com/anYuJia/better-douyin)。非常感谢！
+
 <div align="center">
 
 <img src="frontend/public/animated_icon.svg" width="128" height="128" alt="better-douyin Logo">
