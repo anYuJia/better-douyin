@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="702" height="394" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="702" height="394" fill="#f7f8fa"/>
+  <text x="20" y="34" font-size="22" font-weight="700" fill="#24292f">🏆 赞助排行榜</text>
+  <text x="20" y="56" font-size="13" fill="#57606a">感谢每一位为 better-douyin 发电的伙伴 · 按赞助金额排序</text>
+  <g>
+      <rect x="20" y="84" width="158" height="150" rx="10" fill="#f9a825" opacity="0.12"/>
+      <rect x="20" y="84" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="99" y="110" font-size="26" text-anchor="middle">🥇</text>
+      <circle cx="99" cy="146" r="26" fill="#5c6bc0"/>
+      <text x="99" y="154" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">y</text>
+      <text x="99" y="196" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">yhan</text>
+      <text x="99" y="222" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 200</text>
+    </g>
+<g>
+      <rect x="188" y="84" width="158" height="150" rx="10" fill="#90a4ae" opacity="0.12"/>
+      <rect x="188" y="84" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="267" y="110" font-size="26" text-anchor="middle">🥈</text>
+      <circle cx="267" cy="146" r="26" fill="#26a69a"/>
+      <text x="267" y="154" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">星</text>
+      <text x="267" y="196" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">星野</text>
+      <text x="267" y="222" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 150</text>
+    </g>
+<g>
+      <rect x="356" y="84" width="158" height="150" rx="10" fill="#e2896a" opacity="0.12"/>
+      <rect x="356" y="84" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="435" y="110" font-size="26" text-anchor="middle">🥉</text>
+      <circle cx="435" cy="146" r="26" fill="#ef5350"/>
+      <text x="435" y="154" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">拾</text>
+      <text x="435" y="196" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">拾光</text>
+      <text x="435" y="222" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 100</text>
+    </g>
+<g>
+      
+      <rect x="524" y="84" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="538" y="108" font-size="16" font-weight="bold" fill="#b6bdc6">4</text>
+      <circle cx="603" cy="146" r="26" fill="#8d6e63"/>
+      <text x="603" y="154" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">阿</text>
+      <text x="603" y="196" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">阿伟</text>
+      <text x="603" y="222" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 50</text>
+    </g>
+<g>
+      
+      <rect x="20" y="244" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="34" y="268" font-size="16" font-weight="bold" fill="#b6bdc6">5</text>
+      <circle cx="99" cy="306" r="26" fill="#78909c"/>
+      <text x="99" y="314" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">无</text>
+      <text x="99" y="356" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">无名小卒</text>
+      <text x="99" y="382" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 50</text>
+    </g>
+<g>
+      
+      <rect x="188" y="244" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="202" y="268" font-size="16" font-weight="bold" fill="#b6bdc6">6</text>
+      <circle cx="267" cy="306" r="26" fill="#ab47bc"/>
+      <text x="267" y="314" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">清</text>
+      <text x="267" y="356" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">清风</text>
+      <text x="267" y="382" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 30</text>
+    </g>
+<g>
+      
+      <rect x="356" y="244" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="370" y="268" font-size="16" font-weight="bold" fill="#b6bdc6">7</text>
+      <circle cx="435" cy="306" r="26" fill="#546e7a"/>
+      <text x="435" y="314" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">路</text>
+      <text x="435" y="356" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">路人</text>
+      <text x="435" y="382" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 20</text>
+    </g>
+<g>
+      
+      <rect x="524" y="244" width="158" height="150" rx="10" fill="#ffffff" stroke="rgba(27,31,36,0.12)" stroke-width="1.2"/>
+      <text x="538" y="268" font-size="16" font-weight="bold" fill="#b6bdc6">8</text>
+      <circle cx="603" cy="306" r="26" fill="#ec407a"/>
+      <text x="603" y="314" font-size="26" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">小</text>
+      <text x="603" y="356" font-size="15" font-weight="600" fill="#24292f" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">小明</text>
+      <text x="603" y="382" font-size="14" font-weight="700" fill="#d73a49" text-anchor="middle" font-family="Menlo, Monaco, monospace">¥ 10</text>
+    </g>
+</svg>

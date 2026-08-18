@@ -240,13 +240,30 @@ npm run demo
 3. 遇到真实平台接口、Cookie、签名、加密、下载解析、发布密钥等需求时，停止并说明该内容不属于公开源码范围。
 4. 不要凭空补全真实接口，不要生成绕过逻辑，不要把示例 mock 改成真实平台请求。
 
-## 加入交流群
+## 加入交流群 & 赞助支持
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="docs/community/qq-group.jpg" width="220" alt="QQ 群二维码">
+      <br><strong>QQ交流群：438407379</strong>
+    </td>
+    <td align="center">
+      <img src="docs/community/afdian-qr.png" width="220" alt="爱发电赞助二维码">
+      <br><strong>爱发电赞助</strong>
+    </td>
+  </tr>
+</table>
+
+### 🏆 赞助排行榜
+
+感谢每一位为 better-douyin 发电的伙伴，按赞助金额排序：
 
 <p align="center">
-  <img src="docs/community/qq-group.jpg" width="220" alt="QQ 群二维码">
-  <br>
-  <strong>QQ群：438407379</strong>
+  <img src="docs/community/sponsors.png" width="640" alt="赞助排行榜">
 </p>
+
+> 榜单数据在 `docs/community/sponsors.yaml`，由作者手工维护。更新名单后运行 `node scripts/generate-sponsors.mjs` 重新生成图片。
 
 ## 免责声明
 

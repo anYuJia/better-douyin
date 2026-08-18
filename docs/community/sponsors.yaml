@@ -1,0 +1,39 @@
+# 赞助排行榜数据
+#
+# 手工维护：按赞助金额从高到低排列，越靠上名次越高。
+# 修改后重新运行下面的命令生成 docs/community/sponsors.png：
+#   node scripts/generate-sponsors.mjs
+#
+# avatar_bg 可留空，留空时按昵称自动取色。
+
+- name: yhan
+  amount: 200
+  avatar_bg: "#5c6bc0"
+
+- name: 星野
+  amount: 150
+  avatar_bg: "#26a69a"
+
+- name: 拾光
+  amount: 100
+  avatar_bg: "#ef5350"
+
+- name: 阿伟
+  amount: 50
+  avatar_bg: "#8d6e63"
+
+- name: 无名小卒
+  amount: 50
+  avatar_bg: "#78909c"
+
+- name: 清风
+  amount: 30
+  avatar_bg: "#ab47bc"
+
+- name: 路人
+  amount: 20
+  avatar_bg: "#546e7a"
+
+- name: 小明
+  amount: 10
+  avatar_bg: "#ec407a"
