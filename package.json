@@ -10,6 +10,8 @@
     "server": "node backend/server.mjs",
     "server:check": "node backend/server.mjs --check",
     "demo": "npm run build && npm run server",
-    "check:public": "npm --prefix frontend run build"
+    "check:public": "npm --prefix frontend run build",
+    "docs:sponsors": "node scripts/sync-sponsors.mjs",
+    "docs:sponsors:image": "node scripts/generate-sponsors.mjs"
   }
 }

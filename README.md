@@ -255,15 +255,26 @@ npm run demo
   </tr>
 </table>
 
-### 🏆 赞助排行榜
+### 赞助名单
 
-感谢每一位为 better-douyin 发电的伙伴，按赞助金额排序：
+感谢每一位为 better-douyin 发电的伙伴，名单按累计赞助金额排序。
 
-<p align="center">
-  <img src="docs/community/sponsors.png" width="640" alt="赞助排行榜">
-</p>
+维护源文档：[docs/community/sponsors.md](docs/community/sponsors.md)
 
-> 榜单数据在 `docs/community/sponsors.yaml`，由作者手工维护。更新名单后运行 `node scripts/generate-sponsors.mjs` 重新生成图片。
+<!-- SPONSORS:START -->
+| 排名 | 赞助人 | 累计赞助 |
+| ---: | :--- | ---: |
+| 1 | yhan | ¥ 200 |
+| 2 | 星野 | ¥ 150 |
+| 3 | 拾光 | ¥ 100 |
+| 4 | 阿伟 | ¥ 50 |
+| 5 | 无名小卒 | ¥ 50 |
+| 6 | 清风 | ¥ 30 |
+| 7 | 路人 | ¥ 20 |
+| 8 | 小明 | ¥ 10 |
+<!-- SPONSORS:END -->
+
+> 编辑 `docs/community/sponsors.md` 后运行 `npm run docs:sponsors`，即可同步 README 中的名单。需要生成旧版图片时运行 `npm run docs:sponsors:image`。
 
 ## 免责声明
 

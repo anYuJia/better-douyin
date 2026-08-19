@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 生成 docs/community/sponsors.png —— 赞助排行榜图片
 //
-// 数据来源：docs/community/sponsors.yaml（手工维护，按金额从高到低）
+// 数据来源：docs/community/sponsors.md（手工维护，按金额从高到低）
 // 渲染依赖：macOS 自带的 qlmanage（QuickLook 引擎），把 SVG 转成 PNG，无第三方依赖。
 //
 // 用法：
@@ -9,48 +9,19 @@
 //
 // 其他平台（Linux / Windows）没有 qlmanage，可换成 rsvg-convert / magick 等，见下方 SVG_EXPORTER。
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { readSponsors } from './sponsors-data.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DATA = join(ROOT, 'docs/community/sponsors.yaml');
+const DATA = join(ROOT, 'docs/community/sponsors.md');
 const OUT_DIR = join(ROOT, 'docs/community');
 const OUT_SVG = join(OUT_DIR, 'sponsors.svg');
 const OUT_PNG = join(OUT_DIR, 'sponsors.png');
 
-// ---------- YAML 极简解析（只吃本项目数据：顶层 "- name/amount/avatar_bg"） ----------
-function parseSponsors(raw) {
-  const rows = [];
-  let cur = null;
-  for (const line of raw.split('\n')) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith('#')) continue;
-    if (trimmed.startsWith('- ')) {
-      // 新条目
-      cur = {};
-      rows.push(cur);
-      const rest = trimmed.slice(2).trim();
-      const m = rest.match(/^([\w_]+):\s*(.*)$/);
-      if (m) {
-        const [, key, valRaw] = m;
-        const val = valRaw.replace(/^["']|["']$/g, '');
-        if (key === 'amount') cur.amount = Number(val);
-        else cur[key] = val;
-      }
-    } else if (cur) {
-      const m = trimmed.match(/^([\w_]+):\s*(.*)$/);
-      if (!m) continue;
-      const [, key, valRaw] = m;
-      const val = valRaw.replace(/^["']|["']$/g, '');
-      if (key === 'amount') cur.amount = Number(val);
-      else cur[key] = val;
-    }
-  }
-  return rows.filter(r => r && r.name);
-}
-
+// ---------- SVG 渲染辅助 ----------
 function avatarColor(name) {
   const palette = ['#5c6bc0', '#26a69a', '#ef5350', '#8d6e63', '#78909c', '#ab47bc', '#546e7a', '#ec407a', '#ffa726', '#66bb6a'];
   let h = 0;
@@ -161,12 +132,7 @@ function exporterSvgToPng(svgPath, pngPath, width) {
 
 // ---------- 主流程 ----------
 function main() {
-  const raw = readFileSync(DATA, 'utf8');
-  const sponsors = parseSponsors(raw);
-  if (!sponsors.length) {
-    console.error(`没有解析到赞助人，请检查 ${DATA}`);
-    process.exit(1);
-  }
+  const sponsors = readSponsors(DATA);
 
   mkdirSync(OUT_DIR, { recursive: true });
   const svg = buildSvg(sponsors);
