@@ -3,7 +3,11 @@
 >
 > 如果你来自旧仓库 [`anYuJia/better-douyin-R`](https://github.com/anYuJia/better-douyin-R) 或旧版本，请前往本仓库的 [Releases](https://github.com/anYuJia/better-douyin/releases/latest) 重新下载安装包。后续安装包、签名文件和自动更新 metadata 都会在这里发布。
 >
-> 另外，因为作者误操作，原仓库的 Star 数据全部丢失了。如果这个项目对你有帮助，希望大家在新仓库帮忙点一个 Star 支持作者：[https://github.com/anYuJia/better-douyin](https://github.com/anYuJia/better-douyin)。非常感谢！
+> **更多入口与实用工具**
+>
+> - 🌐 **[better-douyin 官网](https://douyin.yhan.fun/)** — 了解产品、查看最新版本，并从官方入口安全下载。
+> - ✉️ **[Better Email](https://github.com/anYuJia/better-email)** — 本地优先的多账户桌面邮箱，把分散的邮箱收进一个安静、可靠的工作台。
+> - 🔐 **[P2WLAN](https://github.com/yhan-sun/p2wlan)** — P2P 优先、可自托管的加密虚拟局域网，让电脑、NAS 与服务器跨网络安全互联。
 
 <div align="center">
 
@@ -25,7 +29,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Non--Commercial-red?style=flat-square" alt="License"></a>
 </p>
 
-[下载完整应用](#下载完整应用) · [许可协议](#许可协议) · [功能能力](#功能能力) · [界面预览](#界面预览) · [源码说明](#源码说明) · [协作边界](#协作边界)
+[官方网站](https://douyin.yhan.fun/) · [下载完整应用](#下载完整应用) · [许可协议](#许可协议) · [功能能力](#功能能力) · [界面预览](#界面预览) · [源码说明](#源码说明) · [协作边界](#协作边界)
 
 </div>
 
