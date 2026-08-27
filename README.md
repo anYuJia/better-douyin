@@ -1,13 +1,29 @@
-> [!IMPORTANT]
-> **迁移说明：Rust / Tauri 版本现在正式迁移到 `anYuJia/better-douyin` 作为主发布仓库。**
+> [!TIP]
+> **更多产品与实用工具**
 >
-> 如果你来自旧仓库 [`anYuJia/better-douyin-R`](https://github.com/anYuJia/better-douyin-R) 或旧版本，请前往本仓库的 [Releases](https://github.com/anYuJia/better-douyin/releases/latest) 重新下载安装包。后续安装包、签名文件和自动更新 metadata 都会在这里发布。
+> 🌐 **[better-douyin 官网](https://douyin.yhan.fun/)**
 >
-> **更多入口与实用工具**
+> 查看产品介绍、界面预览和最新版本，从官方入口前往 GitHub Releases 下载完整应用。
 >
-> - 🌐 **[better-douyin 官网](https://douyin.yhan.fun/)** — 了解产品、查看最新版本，并从官方入口安全下载。
-> - ✉️ **[Better Email](https://github.com/anYuJia/better-email)** — 本地优先的多账户桌面邮箱，把分散的邮箱收进一个安静、可靠的工作台。
-> - 🔐 **[P2WLAN](https://github.com/yhan-sun/p2wlan)** — P2P 优先、可自托管的加密虚拟局域网，让电脑、NAS 与服务器跨网络安全互联。
+> ✉️ **[Better Email](https://github.com/anYuJia/better-email) — 把多个邮箱收进一个安静、可靠的桌面工作台**
+>
+> 一款本地优先的多账户桌面邮箱，减少在不同邮箱和网页之间反复切换，让阅读、搜索与写信回到同一个清晰、高效的工作空间。
+>
+> - **多账户统一管理：** 集中处理不同邮箱中的邮件与日常工作流。
+> - **本地优先：** 重视数据掌控、响应速度与桌面端使用体验。
+> - **可选 AI 辅助：** 在需要时帮助处理邮件，不改变邮箱工具应有的安静与专注。
+>
+> **适合：** 同时管理多个邮箱、重视效率与隐私，或希望拥有独立桌面邮件工作台的用户。
+>
+> 🔐 **[P2WLAN](https://github.com/yhan-sun/p2wlan) — 让不同网络中的设备像在同一局域网中互联**
+>
+> 一款开源、P2P 优先且可自托管的加密虚拟局域网工具，为分散在不同网络中的电脑、NAS 和服务器提供稳定的私网连接。
+>
+> - **P2P 优先：** 设备尽可能直接连接，并在直连不可用时提供中继回退。
+> - **安全可控：** 采用加密通信，并支持自托管关键服务。
+> - **跨网络访问：** 通过稳定的虚拟 IP 连接远程设备与服务。
+>
+> **适合：** 远程访问 NAS、异地开发协作、家庭与办公室组网，以及不希望将内网服务直接暴露到公网的用户。
 
 <div align="center">
 
