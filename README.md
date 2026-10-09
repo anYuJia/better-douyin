@@ -1,5 +1,14 @@
 项目工具始终免费，激活码可以加群看消息，激活码免费获取，目的是为了防止二次倒卖和滥用，还请谅解!qq群号：438407379
 
+<div align="center">
+
+<a href="https://shop.txyxt.dpdns.org/">
+  <img src="docs/community/txyxt-sponsor.png" alt="TxyxT 小店：ChatGPT Plus / Pro、Claude Pro、Grok、Gemini 会员充值，稳定充值、快速交付、售后支持，点击前往官网" width="100%">
+</a>
+
+本项目由 **[TxyxT 小店](https://shop.txyxt.dpdns.org/)** 赞助支持 · 售后 QQ：**2499212390**
+
+</div>
 
 > [!TIP]
 > **更多产品与实用工具**
