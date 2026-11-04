@@ -9,16 +9,12 @@
   <img src="docs/community/txyxt-sponsor.png" alt="TxyxT 小店：ChatGPT Plus / Pro、Claude Pro、Grok、Gemini 会员充值，稳定充值、快速交付、售后支持，点击前往官网" width="100%">
 </a>
 
-本项目由 **[TxyxT 小店](https://shop.txyxt.dpdns.org/)** 赞助支持 · 售后 QQ：**2499212390**
+本项目由 **[TxyxT 小店](https://shop.txyxt.dpdns.org/)** 赞助支持 
 
 </div>
 
 > [!TIP]
 > **更多产品与实用工具**
->
-> 🌐 **[better-douyin 官网](https://douyin.yhan.fun/)**
->
-> 查看产品介绍、界面预览和最新版本，从官方入口前往 GitHub Releases 下载完整应用。
 >
 > ✉️ **[Better Email](https://github.com/anYuJia/better-email) — 把多个邮箱收进一个安静、可靠的桌面工作台**
 >
